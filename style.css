@@ -1,0 +1,29 @@
+.título{
+    background-color: rgb(169, 169, 235);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: "Fira Sans", sans-serif;
+}
+.D{
+    color: rgb(82, 40, 40);
+}
+
+.lista{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Times new roman;
+}
+.D2{
+    margin: 100px;
+}
+.D3{
+    display: flex;
+    
+    margin: 100px;
+}
+.D4{
+    margin-top: 100px;
+}
+.esconder{
+    display: none;
+}

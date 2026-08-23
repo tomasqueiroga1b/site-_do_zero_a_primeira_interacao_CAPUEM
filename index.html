@@ -1,27 +1,66 @@
 <!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
 
 <head>
-    <title> 🐕 truques para ensinar o seu cachorro! </title>
+    <title> 🐕 truques para ensinar ao seu cachorro! </title>
 
 </head>
 
 <body>
+    <h1 class="título">🐕 truques para ensinar ao seu cachorro!</h1>
+    <div class="D2">
     <div class="D">
-    <h1>Antes disso: por quê ensinar truques ao seu cachorro?</h1>
+    <h2>Antes disso: por quê ensinar truques ao seu cachorro?</h2>
     </div>
-    <p> explicação</p>
-
-
-    <h1> Truques para ensinar o seu cachorro:</h1>
-    <h3> Sentar</h3>
-    <p>para ensinar seu cachorro a sentar, geralmente você só vai precisar de:</p>
-    <ul>ambiente que o cão fique calmo </ul>
-    <ul>petiscos</ul>
-    <div class="vídeo do bito sentado">
-    <!--<div class="video-cantor">
-  <video autoplay muted loop controls width="250">
-    <source src="seu-video.mp4" type="video/mp4">
-  </video>--> </div>
+    <p> Já é comprovado que ensinar truques ao seu cachorro pode melhorar o vínculo entre vocês e também faz muito bem para a saúde mental do seu cachorro!</p>
+    <p> Você pode, é claro, ensinar truques para pássaros, gatos, hamsters e até tartarugas, mas os cachorros são os melhores alunos (por mim).</p>
 </div>
-\\
+<div class="D4">
+    <h2> Truques para ensinar ao seu cachorro:<b>Sentar</b></h2>
+    <p>para ensinar seu cachorro a sentar, geralmente você só vai precisar de:</p>
+    </div>
+    <div class="D3">
+    <li class="lista">
+    <ul> 1.ambiente que o cão fique calmo</ul>
+    <ul>2.petiscos</ul>
+    <ul>3.muita paciência e constância</ul>
+    </li>
+    <div class="vídeo do bito sentado">
+    <div class="video-cantor">
+        <button  id="btao" class="btao" onclick="bitosentando()">Vídeo demonstrativo:</button>
+        <video autoplay muted loop controls id="bito1" class="esconder" width="250">
+    <source src="BITO1.mp4" type="video/mp4">]
+    
+  
+  </video> </div></div>
+</div>
+
 </body>
+<style>
+    .D{
+    color: red;
+}
+
+.lista{
+    color: red;
+    font-size: 20px;
+    font-family: Times new roman;
+}
+.D2{
+    margin: 100px;
+}
+.D3{
+    display: flex;
+    
+    margin: 100px;
+}
+
+</style>
+<script>
+    function bitosentando() {
+        
+        bito1.classList.remove('esconder');
+        btao.classList.add('esconder');
+  
+}
+</script>
