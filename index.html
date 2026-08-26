@@ -1,24 +1,30 @@
 
+<!DOCTYPE html>
 <link rel="stylesheet" href="style.css">
 
 <head>
     <title> 🐕 truques para ensinar ao seu cachorro! </title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
-<body>
+<body >
+    <style>
+        body { background-color: lightblue; }
+    </style>
+  
     <h1 class="título">🐕 truques para ensinar ao seu cachorro!</h1>
     <div class="D2">
     <div class="D">
     <h2>Antes disso: por quê ensinar truques ao seu cachorro?</h2>
     </div>
-    <p> Já é comprovado que ensinar truques ao seu cachorro pode melhorar o vínculo entre vocês e também faz muito bem para a saúde mental do seu cachorro!</p>
-    <p> Você pode, é claro, ensinar truques para pássaros, gatos, hamsters e até tartarugas, mas os cachorros são os melhores alunos (por mim).</p>
+    <p class="Di"> Já é comprovado que ensinar truques ao seu cachorro pode melhorar o vínculo entre vocês e também faz muito bem para a saúde mental do seu cachorro!</p>
+    <p class="Di"> Você pode, é claro, ensinar truques para pássaros, gatos, hamsters e até tartarugas, mas os cachorros são os melhores alunos (por mim).</p>
 </div>
 <div class="D4">
-    <h2> Truques para ensinar ao seu cachorro:<b>Sentar</b></h2>
-    <p>para ensinar seu cachorro a sentar, geralmente você só vai precisar de:</p>
+    <h2 class="Di"> Truques para ensinar ao seu cachorro:<b class="truques1">Sentar</b></h2>
+    <p class="Di">para ensinar seu cachorro a sentar, geralmente você só vai precisar de <B><mark>(REQUISITOS):</mark></B></p>
     </div>
     <div class="D3">
     <li class="lista">
@@ -26,26 +32,88 @@
     <ul>2.petiscos</ul>
     <ul>3.muita paciência e constância</ul>
     </li>
-    <div class="vídeo do bito sentado">
-    <div class="video-cantor">
+    <div class="Dp">
+    <p id="Dp"><b>Processo:</b> você mostrará o petisco ao cão, vai erguer a mão acima dele e fale senta, como ele precisa olhar para cima para ver o petisco ele,
+         ele tem grandes chances de sentar. Quando ele sentar, dê o petisco e faça carinho, e vá repetindo até que ele faça sem o petisco.</p>
+    </div>
+    
+        
+   
+    <div class="video-bito1">
         <button  id="btao" class="btao" onclick="bitosentando()">Vídeo demonstrativo:</button>
-        <video autoplay muted loop controls id="bito1" class="esconder" width="250">
+        <video autoplay muted loop controls id="bito1" class="esconder" width="375" height="330">
     <source src="BITO1.mp4" type="video/mp4">]
     
+    
   
-  </video> </div></div>
+  </video> </div>
 </div>
+<b class="truques2">Ficar (parado)</b>
+<p class="Di"><B><mark>REQUISITOS:</mark></b></p>
+    <li class="lista2">
+    <ul>1.ambiente que o cão fique calmo</ul>
+    <ul>2.petiscos (algo que sirva de agrado)</ul>
+    <ul>3.(OPICIONAL, AJUDA MUITO) o(a) cachorro(a) saber sentar</ul>
+    <ul>3.MUITA paciência e constância</ul>
+    </li>
+    <p>Processo: Você vai fazer de um modo</p>
+
+
 
 </body>
 <style>
+    .btao{
+        background-color: rgb(81, 107, 155);
+    }
+    .Di{
+        font-size: 25px;
+    margin-left: 100px;
+    }
+    
+    .Dp{
+display: block;
+max-width: 400px;
+font-size: 21px;
+margin-right: 200px;
+    }
     .D{
-    color: red;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    display: block;
+    width: 1800px;
+    border-width: 2px;
+    background-color: rgb(118, 157, 231);
+    border-color: rgb(0, 0, 0);
+    font-size: 20px;
+    box-shadow: '0px 0px 10px 5px rgb(0, 0, 0);';
 }
 
 .lista{
-    color: red;
+    display: block;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Courier 'Courier New', Courier, monospace;
+    margin-right: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.lista2{
+    margin-left:80px;
+    display: block;
+    width: 300px;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: Times new roman;
+    margin-right: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
 }
 .D2{
     margin: 100px;
@@ -55,10 +123,49 @@
     
     margin: 100px;
 }
-.btao{
-    margin-left:200px;
+.D4{
+    margin-left: 100px;
+    margin-top:50px;
 }
+.vídeo-bito1{
+    margin-left: 200px;
+}
+.título{
+    display: block;
 
+    margin-left: 500px;
+    margin-right: 500px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: Fira Sans;
+    border-radius: 10px;
+}
+.truques1{
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Courier New;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    background-color: rgb(94, 138, 219);
+}
+.truques2{
+    margin-left: 80px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Courier New;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    background-color: rgb(94, 138, 219);
+}
+.esconder{
+    display: none;
+}
+.vídeo do bito sentado{
+    margin-left: 100px;
+}
 </style>
 <script>
     function bitosentando() {
