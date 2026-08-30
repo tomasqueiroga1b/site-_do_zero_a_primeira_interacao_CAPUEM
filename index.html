@@ -1,254 +1,457 @@
+```html
+<!-- DEFINE QUE O DOCUMENTO UTILIZA HTML -->
 <!DOCTYPE html>
+
+<!-- CONECTA O ARQUIVO HTML AO ARQUIVO CSS -->
 <link rel="stylesheet" href="style.css">
 
+<!-- INICIA A PARTE DE CONFIGURAÇÕES DO SITE -->
 <head>
+
+    <!-- DEFINE O TÍTULO QUE APARECE NA ABA DO NAVEGADOR -->
     <title> 🐕 truques para ensinar ao seu cachorro! </title>
+
+    <!-- PERMITE O USO DE ACENTOS, CARACTERES ESPECIAIS E EMOJIS -->
     <meta charset="UTF-8">
+
+    <!-- FAZ O SITE SE ADAPTAR A DIFERENTES TAMANHOS DE TELA -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
+<!-- INICIA O CONTEÚDO VISÍVEL DA PÁGINA -->
 <body >
-   
+
+    <!-- DEFINE UMA COR DE FUNDO PARA O CORPO DA PÁGINA -->
     <style>
-        
+
+        /* DEFINE A COR DO FUNDO DO SITE */
         body { background-color: lightblue; }
+
     </style>
-  
-    <h1 class="título">🐕 truques para ensinar ao seu cachorro!</h1> <!-- TÍTULO PRINCIPAL DO SITE -->
+
+    <!-- CRIA O TÍTULO PRINCIPAL DO SITE -->
+    <h1 class="título">🐕 truques para ensinar ao seu cachorro!</h1>
+
+    <!-- DIV É USADA PARA AGRUPAR E ORGANIZAR ELEMENTOS -->
     <div class="D2">
+
+    <!-- CRIA OUTRA ÁREA PARA ORGANIZAR ELEMENTOS -->
     <div class="D">
-    <h2>Antes disso: por quê ensinar truques ao seu cachorro?</h2><!-- PRIMEIRO ASSUNTO -->
+
+    <!-- CRIA UM SUBTÍTULO -->
+    <h2>Antes disso: por quê ensinar truques ao seu cachorro?</h2>
+
     </div>
-    <p class="Di"> Já é comprovado que ensinar truques ao seu cachorro pode melhorar o vínculo entre vocês e também faz muito bem para a saúde mental do seu cachorro!</p> <!-- EXPLICAÇÃO-->
+
+    <!-- CRIA UM PARÁGRAFO DE TEXTO -->
+    <p class="Di"> Já é comprovado que ensinar truques ao seu cachorro pode melhorar o vínculo entre vocês e também faz muito bem para a saúde mental do seu cachorro!</p>
+
+    <!-- CRIA OUTRO PARÁGRAFO DE TEXTO -->
     <p class="Di"> Você pode, é claro, ensinar truques para pássaros, gatos, hamsters e até tartarugas, mas os cachorros são os melhores alunos (por mim).</p>
-</div>
-<div class="D4">
-    <h2 class="Di"> Truques para ensinar ao seu cachorro:<b class="truques1">Sentar</b></h2> <!-- PRIMEIRO TRUQUE: SENTAR (EM TÍTULO TAMANHO H2)-->
-    <p class="Di">para ensinar seu cachorro a sentar, geralmente você só vai precisar de <B><mark>(REQUISITOS):</mark></B></p>
-    </div>
-    <div class="D3">
-    <li class="lista"> <!-- CRIA LISTA -->
-    <ul> 1.ambiente que o cão fique calmo</ul><!--LISTA NÃO ORDENADA-->
-    <ul>2.petiscos</ul>
-    <ul>3.muita paciência e constância</ul>
-    </li>
-    <div class="Dp">
-    <p id="Dp"><b>Processo:</b> você mostrará o petisco ao cão, vai erguer a mão acima dele e fale senta, como ele precisa olhar para cima para ver o petisco ele,
-         ele tem grandes chances de sentar. Quando ele sentar, dê o petisco e faça carinho, e vá repetindo até que ele faça sem o petisco.</p>
-    </div>
-    
-        
-   
-    <div class="video-bito1"><!-- VÍDEO DO BITO COM O COMANDO "SENTA"-->
-        <button  id="btao" class="btao" onclick="bitosentando()">Vídeo demonstrativo:</button>
-        <video autoplay muted loop controls id="bito1" class="esconder" width="375" height="330">
-    <source src="BITO1.mp4" type="video/mp4">]
-   
-  
-  </video> </div>
+
 </div>
 
-<b class="truques2">Ficar (parado)</b><!-- TRUQUE 2: FICAR PARADO AO COMANDO-->
+<!-- CRIA UMA ÁREA PARA ORGANIZAR O PRIMEIRO TRUQUE -->
+<div class="D4">
+
+    <!-- CRIA UM SUBTÍTULO E COLOCA O NOME DO TRUQUE EM NEGRITO -->
+    <h2 class="Di"> Truques para ensinar ao seu cachorro:<b class="truques1">Sentar</b></h2>
+
+    <!-- MOSTRA UMA EXPLICAÇÃO E OS REQUISITOS DO TRUQUE -->
+    <p class="Di">para ensinar seu cachorro a sentar, geralmente você só vai precisar de <B><mark>(REQUISITOS):</mark></B></p>
+
+    </div>
+
+    <!-- ORGANIZA OS REQUISITOS, O PROCESSO E O VÍDEO -->
+    <div class="D3">
+
+    <!-- CRIA UMA LISTA PARA OS REQUISITOS -->
+    <li class="lista">
+
+    <!-- MOSTRA OS ITENS DA LISTA -->
+    <ul> 1.ambiente que o cão fique calmo</ul>
+    <ul>2.petiscos</ul>
+    <ul>3.muita paciência e constância</ul>
+
+    </li>
+
+    <!-- CRIA UMA ÁREA PARA O TEXTO DO PROCESSO -->
+    <div class="Dp">
+
+    <!-- CRIA UM PARÁGRAFO COM O PROCESSO -->
+    <p id="Dp"><b>Processo:</b> você mostrará o petisco ao cão, vai erguer a mão acima dele e fale senta, como ele precisa olhar para cima para ver o petisco ele,
+
+         ele tem grandes chances de sentar. Quando ele sentar, dê o petisco e faça carinho, e vá repetindo até que ele faça sem o petisco.</p>
+
+    </div>
+
+
+    <!-- CRIA UMA ÁREA PARA ORGANIZAR O BOTÃO E O VÍDEO -->
+    <div class="video-bito1">
+
+        <!-- CRIA UM BOTÃO QUE CHAMA UMA FUNÇÃO DO JAVASCRIPT QUANDO É CLICADO -->
+        <button  id="btao" class="btao" onclick="bitosentando()">Vídeo demonstrativo:</button>
+
+        <!-- CRIA UM ELEMENTO DE VÍDEO -->
+        <video autoplay muted loop controls id="bito1" class="esconder" width="375" height="330">
+
+    <!-- DEFINE O ARQUIVO DE VÍDEO QUE SERÁ REPRODUZIDO -->
+    <source src="BITO1.mp4" type="video/mp4">]
+
+
+  </video> </div>
+
+</div>
+
+<!-- MOSTRA O NOME DO SEGUNDO TRUQUE -->
+<b class="truques2">Ficar (parado)</b>
+
+<!-- MOSTRA OS REQUISITOS DO SEGUNDO TRUQUE -->
 <p class="Di"><B><mark>REQUISITOS:</mark></b></p>
+
+    <!-- CRIA UMA ÁREA PARA ORGANIZAR O SEGUNDO TRUQUE -->
     <div class="ficar">
+
+    <!-- CRIA UMA LISTA COM OS REQUISITOS -->
     <li class="lista2">
+
+    <!-- MOSTRA OS ITENS DA LISTA -->
     <ul>1.ambiente que o cão fique calmo</ul>
     <ul>2.petiscos (algo que sirva de agrado)</ul>
     <ul>3.(OPICIONAL, AJUDA MUITO) o(a) cachorro(a) saber sentar</ul>
     <ul>3.MUITA paciência e constância</ul>
+
     </li>
+
+    <!-- MOSTRA O PROCESSO PARA ENSINAR O TRUQUE -->
     <p class="Dp"><b>Processo:</b> Você vai fazer de um modo que o cão tenha foco em você, pode ser com um petisco ou brinquedo, mas ele precisa ficar parado no lugar.
+
         Após isso (ele ficar parado) você vai falar "fica" alto e forte para ele, daí você vai se distanciar dele, e se ele se mexer, você vai voltar e repetir o processo, se ele ficar parado, você vai dar o petisco e fazer carinho no fofo(a). Repita até que ele fique parado sem o petisco.</p>
+
+        <!-- CRIA UM BOTÃO QUE CHAMA A FUNÇÃO BITOFICANDO() -->
         <button id="btao2" class="btao2" onclick="bitoficando()">Vídeo demonstrativo:</button>
 
-    <video autoplay muted loop controls id="bito2" class="esconder" width="375" height="330"><!-- VIDEO BITO COM O COMANDO "FICA"-->
+    <!-- CRIA O SEGUNDO VÍDEO -->
+    <video autoplay muted loop controls id="bito2" class="esconder" width="375" height="330">
+
+    <!-- DEFINE O ARQUIVO DO SEGUNDO VÍDEO -->
     <source src="BITO2.mp4" type="video/mp4">
+
     </video>
+
         </div>
+
+<!-- MOSTRA O NOME DO TERCEIRO TRUQUE -->
 <b class="truques3">Obedecer o "NÃO" para comidas</b>
+
+<!-- MOSTRA OS REQUISITOS DO TERCEIRO TRUQUE -->
 <p class="Di"><B><mark>REQUISITOS:</mark></b></p>
+
+    <!-- CRIA UMA ÁREA PARA ORGANIZAR O TERCEIRO TRUQUE -->
     <div class="não">
+
+        <!-- CRIA UMA LISTA DE REQUISITOS -->
         <li class="lista2">
+
+            <!-- MOSTRA OS ITENS DA LISTA -->
             <ul>1. pote de comida do cachorro</ul>
             <ul>2. petiscos (algo que sirva de agrado)</ul>
             <ul>3. coragem para falar alto com o bixinho</ul>
+
         </li>
+
+        <!-- MOSTRA O PROCESSO PARA ENSINAR O TRUQUE -->
         <p class="Dp"><b>Processo:</b> Você vai colocar a comida do cachorro no pote, e vai falar "NÃO" alto e firme, se ele não obedecer, você vai rápidamente barrar o caminho entre ele e o petisco (<b>cuidado para ele não te morder</b>!!!), quando ele obedecer o não você só deixa ele saborear o petisco</p>
+
+        <!-- CRIA UM BOTÃO QUE CHAMA A FUNÇÃO BITONAO() -->
         <button id="btao3" class="btao2" onclick="bitonao()">Vídeo demonstrativo:</button>
+
+        <!-- CRIA O TERCEIRO VÍDEO -->
         <video autoplay muted loop controls id="bito3" class="esconder" width="375" height="330">
+
+    <!-- DEFINE O ARQUIVO DO TERCEIRO VÍDEO -->
     <source src="BITO3.mp4" type="video/mp4">
+
     </div>
+
+
+
 
 
 
 
 </body>
+
 <style>
+
+    /* DEFINE A MARGEM E A COR DE FUNDO DO SITE */
     body{
+
+        /* REMOVE A MARGEM PADRÃO */
         margin: 0;
-        background-color: rgb(169, 205, 241);}<!-- DEFINIÇÕES NORMAIS PARA O BODY (MARGIN 0 RETIRA A MARGEM QUE JÁ TEM)-->
-    
-    .ficar{
-        margin: 70px;
-        display:flex
-        
+        background-color: rgb(169, 205, 241);
+
     }
+
+    /* DEFINE O ESPAÇAMENTO E ORGANIZA OS ELEMENTOS LADO A LADO */
+    .ficar{
+
+        /* DEFINE O ESPAÇO EXTERNO */
+        margin: 70px;
+        /* ORGANIZA OS ELEMENTOS LADO A LADO */
+        display:flex
+
+    }
+
+    /* BITINHO NO "NÃO"*/
     .não{
+
         margin: 100px;
         display:flex
-        
+
     }
+
+    /* DEFINE O VISUAL DO PRIMEIRO BOTÃO */
     .btao{
+
+        /* DEFINE A COR DO BOTÃO */
         background-color: rgb(106, 125, 160);
+
+        /* DEFINE O TAMANHO DA LETRA */
         font-size: 20px;
+
+        /*  LARGURA DO BOTÃO */
         width: 150px;
-        height: 50px;}<!-- CONFIG PARA O PRIMEIRO BOTÃO-->
-    
+
+        /* ALTURA DO BOTÃO */
+        height: 50px;
+
+    }
+
     .Di{
+
+        /* DEFINE O TAMANHO DA LETRA */
         font-size: 25px;
-    margin-left: 100px;
+
+        /* DEFINE O ESPAÇO SOMENTE À ESQUERDA */
+        margin-left: 100px;
+
     }
-    
+
+    /* DEFINE O TAMANHO E O ESPAÇAMENTO DO TEXTO DO PROCESSO */
     .Dp{
-display: block;
-max-width: 400px;
-font-size: 21px;
-margin-right: 200px;
+
+        /* DEFINE COMO O ELEMENTO SERÁ EXIBIDO */
+        display: block;
+        max-width: 400px;
+        margin-right: 200px;
+        font-size: 21px;
+         
+
     }
+
     .D{
-    color: rgb(0, 0, 0);
-    border-style: solid;
-    display: block;
-    width: 1775px;
-    border-width: 2px;
-    background-color: rgb(118, 157, 231);
-    border-color: rgb(0, 0, 0);
-    margin-left: 100px;
-    font-size: 20px;
-    box-shadow: 2px 2px 10px 5px rgb(105, 97, 97);
-}
-.btao2  {
-    max-width: 150px;
-    max-height: 50px;
-    font-size: 20px;
-    background-color: rgb(106, 125, 160);
-}
-.btao3  {
-    max-width: 150px;
-    max-height: 50px;
-    font-size: 20px;
-    background-color: rgb(106, 125, 160);
-}
-.lista{ 
-    display: block;
-    max-width: 300px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family: Courier 'Courier New', Courier, monospace;
-    margin-right: 200px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(241, 241, 241);
-    border-radius: 5px;
-    max-height: 180px;}<!-- LISTA DE REQUISITOS PARA O TRUQUE-->
+        color: rgb(0, 0, 0);
+        /* CRIA UMA BORDA */
+        border-style: solid;
+        display: block;
+        /* DEFINE A LARGURA */
+        width: 1775px;
+        /* DEFINE A ESPESSURA DA BORDA */
+        border-width: 2px;
+        background-color: rgb(118, 157, 231);
+        /* DEFINE A COR DA BORDA */
+        border-color: rgb(0, 0, 0);
+        margin-left: 100px;
+        font-size: 20px;
+        /* ADICIONA UMA SOMBRA AO REDOR DA CAIXA */
+        box-shadow: 2px 2px 10px 5px rgb(105, 97, 97);
 
-.lista2{
-    margin-left:60px;
-    max-height: fit-content;
-    display: block;
-    width: 300px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family: Times new roman;
-    margin-right: 200px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(241, 241, 241);
-    border-radius: 5px;
-}
-.D2{
-    margin: 100px 0 100px 0;
-}
-.D3{
-    display: flex;
-    
-    margin: 100px;
-}
-.D4{
-    margin-left: 100px;
-    margin-top:50px;
-}
-.vídeo-bito1{
-    margin-left: 200px;
-}
-.título{
-    background-color: rgb(169, 205, 241);
-    color: rgb(0, 0, 0);
-    text-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
-    font-size: 50px;
-    font-family: "Fira Sans", sans-serif;
-}
-.truques1{ 
-    margin-left: 25px;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: Courier New;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 12px;
-    background-color: rgb(94, 138, 219);}<!--CONFIGURAÇÕES DOS TÍTULOS-->
+    }
 
-.truques2{
-    margin-left: 80px;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: Courier New;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 12px;
-    background-color: rgb(94, 138, 219);
-}
-.truques3{
-    margin-left: 25px;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: Courier New;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 12px;
-    background-color: rgb(94, 138, 219);
-}
-.esconder{ 
-    display: none;} <!-- CLASS QUE ESCONDE O VÍDEO E ESCONDE O BOTÃO QUANDO VOCÊ APERTA ELE-->
+    /* DEFINE O ESTILO DOS BOTÕES DOS OUTROS VÍDEOS */
+    .btao2  {
+        max-width: 150px;
+        max-height: 50px;
+        font-size: 20px;
+        background-color: rgb(106, 125, 160);
 
-.vídeo do bito sentado{
-    margin-left: 100px;
-}
-D5{
-    display: flex;  
-}
+    }
+    .btao3  {
+        max-width: 150px;
+        max-height: 50px;
+        font-size: 20px;
+        background-color: rgb(106, 125, 160);
+
+    }
+
+    /* DEFINE O ESTILO DAS LISTAS */
+    .lista{
+        display: block;
+        max-width: 300px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        /* DEFINE A FONTE DO TEXTO */
+        font-family: Courier 'Courier New', Courier, monospace;
+        margin-right: 200px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(241, 241, 241);
+        /* ARREDONDA OS CANTOS DA BORDA */
+        border-radius: 5px;
+        max-height: 180px;
+
+    }
+    .lista2{
+        margin-left:60px;
+        max-height: fit-content;
+        display: block;
+        width: 300px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: Times new roman;
+        margin-right: 200px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(241, 241, 241);
+        border-radius: 5px;
+
+    }
+    .D2{
+        /* DEFINE OS ESPAÇAMENTOS EXTERNOS */
+        margin: 100px 0 100px 0;
+
+    }
+    .D3{
+        display: flex;
+        margin: 100px;
+    }
+    .D4{
+        margin-left: 100px;
+        margin-top:50px;
+
+    }
+    .vídeo-bito1{
+        margin-left: 200px;
+
+    }
+
+    /* DEFINE O ESTILO DO TÍTULO PRINCIPAL */
+    .título{
+
+        /* DEFINE A COR DO FUNDO */
+        background-color: rgb(169, 205, 241);
+
+        /* DEFINE A COR DO TEXTO */
+        color: rgb(0, 0, 0);
+
+        /* DEFINE O TAMANHO DA LETRA */
+        font-size: 50px;
+
+        /* DEFINE A FONTE DO TÍTULO */
+        font-family: "Fira Sans", sans-serif;
+
+    }
+
+    /* DEFINE O ESTILO DO NOME DO PRIMEIRO TRUQUE */
+    .truques1{
+
+        /* DEFINE O ESPAÇO À ESQUERDA */
+        margin-left: 25px;
+
+        /* DEFINE A COR DO TEXTO */
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+
+        /* DEFINE A FONTE DA LETRA */
+        font-family: Courier New;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 12px;
+        background-color: rgb(94, 138, 219);
+
+    }
+
+    /* DEFINE O ESTILO DO NOME DO SEGUNDO TRUQUE */
+    .truques2{
+        margin-left: 80px;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-family: Courier New;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 12px;
+        background-color: rgb(94, 138, 219);
+
+    }
+
+    /* DEFINE O ESTILO DO NOME DO TERCEIRO TRUQUE */
+    .truques3{
+
+        margin-left: 25px;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+
+        font-family: Courier New;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 12px;
+        background-color: rgb(94, 138, 219);
+
+    }
+
+    /* CRIA UMA CLASSE PARA ESCONDER ELEMENTOS */
+    .esconder{
+
+        /* FAZ O ELEMENTO NÃO APARECER */
+        display: none;
+
+    }
+
+    /* DEFINE O ESPAÇO DO VÍDEO DO BITO SENTADO */
+    .vídeo do bito sentado{
+        margin-left: 100px;
+
+    }
+
+    /* DEFINE COMO OS ELEMENTOS DA D5 SERIAM ORGANIZADOS */
+    .D5{
+
+        /* ORGANIZA OS ELEMENTOS LADO A LADO */
+        DISPLAY: flex;  
+
+    }
+
 </style>
- <!-- FUNÇÕES QUE FAZEM O BOTÃO SE ESCONDER E O VÍDEO QUE JÁ ESTAVA ESCONDIDO APARECER COM AS CLASS -->
+
 <script>
+
+  
     function bitosentando() {
         
-        bito1.classList.remove('esconder');
-        btao.classList.add('esconder');
+        bito1.classList.remove('esconder'); <!-- TIRA O VÍDEO DO "INVISÍVEL"-->
+        btao.classList.add('esconder'); <!-- DEIXA O BOTÃO INVISÍVEL NO LUGAR-->
+
+    }
+
   
-}
-function bitoficando() {
-        
-    bito2.classList.remove('esconder');
-    btao2.classList.add('esconder');
+    function bitoficando() {
 
-}
-function bitonao() {
-        
-    bito3.classList.remove('esconder');
-    btao3.classList.add('esconder');
+        bito2.classList.remove('esconder');
+        btao2.classList.add('esconder');
 
-}
+    }
+
+  
+    function bitonao() {
+
+        bito3.classList.remove('esconder');
+        btao3.classList.add('esconder');
+
+    }
+
 </script>
+```
