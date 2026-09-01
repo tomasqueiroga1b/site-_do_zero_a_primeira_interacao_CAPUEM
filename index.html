@@ -174,6 +174,8 @@
     <source src="BITO3.mp4" type="video/mp4">
 
     </div>
+    <div class="likeedeslike"
+<!-- BOTÃO DE LIKE --> <button onclick="like()">👍 LIKE <span id="contadorLike">0</span></button> <!-- BOTÃO DE DESLIKE --> <button onclick="deslike()">👎 DESLIKE <span id="contadorDeslike">0</span></button>
 
 
 
@@ -452,6 +454,7 @@
         btao3.classList.add('esconder');
 
     }
+    function like() { document.getElementById("contadorLike").innerHTML = "1"; }  function deslike() {  document.getElementById("contadorDeslike").innerHTML = "1";}
 
 </script>
 ```
